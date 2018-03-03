@@ -1,0 +1,127 @@
+
+/*---------------------*/
+/* Body and background */
+/*---------------------*/
+body {
+    background-image: url(../images/background.jpg);
+    font-family: 'Aerial', sans-serif;
+
+  }
+  header {
+    text-align: center;
+    font-size: 65px;
+    padding: 20px;
+  }
+  .characterWrapper {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #gameMessage {
+    text-align: center;
+    font-size: 10px;
+  }
+  #choose-enemy-button {
+    visibility: hidden;
+  }
+  #restart-button {
+    visibility: hidden;
+  }
+  #turn-counter {
+    font-size: 150%;
+  }
+  
+  /*---------------------*/
+  /* Character rendering */
+  /*---------------------*/
+  .character {
+    width: 225px;
+    margin: 0px 15px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+  }
+  .character img {
+    border: 0 none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+  }
+  .character-name {
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+    font: 'aerial', cursive;
+    font-size: 20px;
+  }
+  .character-health {
+    text-align: center;
+  }
+  
+  .attack {
+    text-align: center;
+  }
+  .action {
+    margin: 15px 15px;
+  }
+  #attack-button{
+      visibility: hidden;
+  }
+  .btn {
+      background: #000;
+      color: #DBD2C6;	
+  }
+  .enemy {
+      width: 225px;
+      margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: red;
+    float: left;
+  }
+  #attacker {
+      padding: 5px;
+  }
+  .target-enemy {
+    background-color: red;
+    color: white;
+    height: 250px;
+    width: 225px;
+    margin: auto;
+    border: 1px solid black;
+  }
+  
+  #available-to-attack-section {
+    float: right;
+  }
+  #available-to-attack-section img {
+      height: 200px;
+  }
+  
+  #defender {
+    width: 150px;
+    height: 200px;
+  }
+  #defender-name {
+    text-align: center;
+  }
+  #defender-image {
+    padding: 0px 16px;
+    margin: 3px 0px;
+    height: 225px;
+    width: 200px;
+  }
+  #defender-health {
+    text-align: center;
+  }
+    #gameMessage {
+    font-size: 12px;
+    font: 'aerial', cursive; 
+    }
+  }
