@@ -7,7 +7,7 @@ $(document).ready(function() {
             name: 'rey',
             health: 125,
             attack: 8,
-            imageUrl: "assets/images/rey.jpg",
+            imageUrl: "assets/images/Rey.jpg",
             enemyAttackBack: 15
         }, 
         'luke': {
